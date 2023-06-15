@@ -1,0 +1,36 @@
+{
+    "name": "ts-srp6a",
+    "version": "1.0.2",
+    "private": true,
+    "main": "index.js",
+    "license": "MIT",
+    "description": "Secure Remote Password Library updated to ES6",
+    "author": "maxzz@msn.com",
+    "homepage": "https://github.com/maxzz/ts-srp6a",
+    "keywords": [
+        "SRP",
+        "SRP 6a"
+    ],
+    "type": "module",
+    "module": "dist/ts-srp6a.js",
+    "types": "dist/ts-srp6a.d.ts",
+    "files": [
+        "src"
+    ],
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^15.1.0",
+        "@rollup/plugin-terser": "^0.4.3",
+        "@rollup/plugin-typescript": "^11.1.1",
+        "rollup": "3.25.1",
+        "rollup-plugin-dts": "^5.3.0",
+        "rollup-plugin-filesize": "^10.0.0",
+        "tslib": "^2.5.3",
+        "typescript": "^5.1.3"
+    },
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "dependencies": {
+        "ts-sjcl": "^1.0.6"
+    }
+}
