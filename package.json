@@ -23,7 +23,7 @@
         "dist/index.d.ts"
     ],
     "dependencies": {
-        "ts-sjcl": "1.0.7"
+        "ts-sjcl": "*"
     },
     "devDependencies": {
         "@rollup/plugin-node-resolve": "^15.1.0",

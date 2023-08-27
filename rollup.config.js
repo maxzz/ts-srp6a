@@ -60,10 +60,13 @@ function confing_es_ts({ input, output }) {
         output: {
             file: output,
             format: "es",
-            globals: {
-                "ts-sjcl": "sjcl",
-            },
+            // globals: {
+            //     "ts-sjcl": "sjcl",
+            // },
         },
+        // external: [
+        //     "ts-sjcl",
+        // ],
         plugins: [
             ...commonPlugins,
             typescript({ emitDeclarationOnly: true, declaration: true, outDir: './types' }),
@@ -78,10 +81,13 @@ function confing_dts({ input, output }) {
         output: [{
             file: output,
             format: "es",
-            globals: {
-                "ts-sjcl": "sjcl",
-            },
+            // globals: {
+            //     "ts-sjcl": "sjcl",
+            // },
         }],
+        // external: [
+        //     "ts-sjcl",
+        // ],
         plugins: [
             dts(),
         ],
