@@ -1231,10 +1231,10 @@ rollup-plugin-filesize@^10.0.0:
     pacote "^15.1.1"
     terser "^5.6.0"
 
-rollup@3.25.1:
-  version "3.25.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.25.1.tgz#9fff79d22ff1a904b2b595a2fb9bc3793cb987d8"
-  integrity sha512-tywOR+rwIt5m2ZAWSe5AIJcTat8vGlnPFAv15ycCrw33t6iFsXZ6mzHVFh2psSjxQPmI+xgzMZZizUAukBI4aQ==
+rollup@3.28.1:
+  version "3.28.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.28.1.tgz#fb44aa6d5e65c7e13fd5bcfff266d0c4ea9ba433"
+  integrity sha512-R9OMQmIHJm9znrU3m3cpE8uhN0fGdXiawME7aZIpQqvpS/85+Vt1Hq1/yVIcYfOmaQiHjvXkQAoJukvLpau6Yw==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -1453,10 +1453,10 @@ terser@^5.17.4, terser@^5.6.0:
     commander "^2.20.0"
     source-map-support "~0.5.20"
 
-ts-sjcl@*:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/ts-sjcl/-/ts-sjcl-1.0.6.tgz#29387a1fc6f20fdf56f9ce6ab5e48fd61a57b87a"
-  integrity sha512-mQhAO7wbaAw0/p+9U56+Hnm1kC7jC89+8KKVpIk6WpwLYsJIFI43dJPDwr5C3/UiNxEdQoqgMn2TFlQQJ5qgEw==
+ts-sjcl@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/ts-sjcl/-/ts-sjcl-1.0.7.tgz#24a052e67a5c2ea8ef0c6cad421791b7c31accca"
+  integrity sha512-krZBlglIJMLyECHXK+pEOZ8CGEsycpTeS+Ab1oMmvVkLuL5q7GGRxJ/+2sB5BzsFtxXh1cCFQ+gN9LsP8mTNvg==
 
 tslib@^2.5.3:
   version "2.6.2"

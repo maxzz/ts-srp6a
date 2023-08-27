@@ -1,5 +1,7 @@
 import { BigInteger } from './biginteger';
-import * as sjcl from 'ts-sjcl';
+// import * as sjcl from 'ts-sjcl';
+// import { sjcl } from 'ts-sjcl';
+import sjcl from 'ts-sjcl';
 import * as sha1 from './sha1';
 
 /*
