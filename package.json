@@ -1,6 +1,6 @@
 {
     "name": "ts-srpclient",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "description": "Secure Remote Password library updated to ES6",
     "author": "maxzz@msn.com",
