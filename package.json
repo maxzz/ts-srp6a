@@ -12,24 +12,17 @@
     "bugs": {
         "url": "https://github.com/maxzz/ts-srpclient/issues"
     },
-
     "keywords": [
         "SRP",
         "SRP 6a"
     ],
     "type": "module",
-    "main": "index.js",
-    "module": "dist/index.js",
-    "types": "dist/index.d.ts",
     "files": [
         "src",
         "dist/index.js",
         "dist/index.d.ts"
     ],
-    "scripts": {
-        "prepublish": "yarn build",
-        "build": "rollup -c"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@rollup/plugin-node-resolve": "^15.1.0",
         "@rollup/plugin-terser": "^0.4.3",
@@ -37,10 +30,15 @@
         "rollup": "3.25.1",
         "rollup-plugin-dts": "^5.3.0",
         "rollup-plugin-filesize": "^10.0.0",
+        "ts-sjcl": "*",
         "tslib": "^2.5.3",
         "typescript": "^5.1.3"
     },
-    "dependencies": {
-        "ts-sjcl": "^1.0.6"
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepublish": "yarn build",
+        "build": "rollup -c"
     }
 }

@@ -1,5 +1,3 @@
-///@ts-nocheck
-
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Basic JavaScript BN library - subset useful for RSA encryption. 
  * Copyright (c) 2005  Tom Wu 
@@ -7,6 +5,7 @@
  * See "LICENSE" for details.
  */
 
+// @ts-nocheck
 export class BigInteger {
     // "constants"
     public static ZERO = nbv(0);
